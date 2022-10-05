@@ -4,6 +4,7 @@ let processos = [
   { nome: 'P3', ucp: [1,-1,-1,1] },
 ]
 
+console.log(processos)
 for(let i = 0; i < processos.length; i++){
   for(let j = 0; j < processos[i].ucp.length; j++){
     if(processos[i].ucp[j]>0){
