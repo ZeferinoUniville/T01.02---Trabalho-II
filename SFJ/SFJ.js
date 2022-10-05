@@ -10,7 +10,7 @@ let prosFim = [
   { nome: 'P2', ucp: [1,-1,1,2] },
 ]
 
-
+console.log(prosFim)
 for(let i = 0; i < prosFim.length; i++){
   for(let j = 0; j < prosFim[i].ucp.length; j++){
     if(prosFim[i].ucp[j]>0){
